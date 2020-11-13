@@ -3,3 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+    
+}
