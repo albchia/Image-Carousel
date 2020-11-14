@@ -33,3 +33,8 @@ prevButt.addEventListener('click',()=>{
 });
 
 //How do we loop from the end to the begin
+carouselSlide.addEventListener('transitionend', ()=>{
+    if(carouselImages[counter].id === 'lastClone'){
+        carouselSlide.style.transition = "none";
+    }
+});
