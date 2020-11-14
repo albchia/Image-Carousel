@@ -14,4 +14,4 @@ const size = carouselImages[0].clientWidth;
 
 //We will start from the first image.
 //It wil move one picture at a time.
-carouselSlide.style.transform = 'translateX'( + (-size * counter) + 'px');
+carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
