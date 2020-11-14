@@ -34,7 +34,10 @@ prevButt.addEventListener('click',()=>{
 
 //How do we loop from the end to the begin
 carouselSlide.addEventListener('transitionend', ()=>{
-    if(carouselImages[counter].id === 'lastClone'){
+    if(carouselImages[counter].id === 'lastClone') {
+        //When images carousel finishes, remove the transition effect to jump directly to the clone 
         carouselSlide.style.transition = "none";
+        counter = carouselImages.length -2;
+        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
 });
