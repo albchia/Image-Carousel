@@ -18,7 +18,7 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 //Add Button Listeners using ES6
 nextButt.addEventListener('click',()=>{
     if (counter >= carouselImages.length - 1) return;
-    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    carouselSlide.style.transition = "transform 0.5s ease-in-out";
     //Add 1 to the counter
     counter++;
     //To test the function: console.log(counter);
@@ -27,7 +27,7 @@ nextButt.addEventListener('click',()=>{
 
 prevButt.addEventListener('click',()=>{
     if (counter <= 0) return;
-    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    carouselSlide.style.transition = "transform 0.5s ease-in-out";
     //Minus 1 to the counter
     counter--;
     //To test the function: console.log(counter);
