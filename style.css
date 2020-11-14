@@ -9,10 +9,22 @@
     margin: auto;
     border: 5px solid black;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel-slide {
     display: flex;
     width: 100%;
     height: 500px;
+}
+
+#prevButt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 50px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
 }
