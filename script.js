@@ -7,3 +7,7 @@ const nextButt = document.querySelector('#nextButt');
 
 //Add a counter to monitor on which image we're on
 let counter = 1;
+
+//Set the width to slide to know how do we need to slide
+const size = carouselImages[0].clientWidth;
+
