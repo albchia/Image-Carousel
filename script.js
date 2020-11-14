@@ -8,9 +8,17 @@ const nextButt = document.querySelector('#nextButt');
 //Add a counter to monitor on which image we're on
 let counter = 1;
 
-//Set the width to slide to know how do we need to slide.
-//It will give us the original width back.
+//Set the width to slide to know how do we need to slide
+//It will give us the original width back
 const size = carouselImages[0].clientWidth;
 
-//The carousel will start from the first image and will move one picture at a time.
+//The carousel will start from the first image and will move one picture at a time
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+//Add Button Listeners using ES6
+nextButt.addEventListener('click',()=>{
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    //Add 1 to the counter
+    counter++;
+    console.log(counter);
+});
