@@ -20,5 +20,16 @@ nextButt.addEventListener('click',()=>{
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
     //Add 1 to the counter
     counter++;
-    console.log(counter);
+    //To test the function: console.log(counter);
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
+
+prevButt.addEventListener('click',()=>{
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
+    //Add 1 to the counter
+    counter--;
+    //To test the function: console.log(counter);
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
+
+//How do we loop from the end to the begin
