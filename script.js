@@ -17,23 +17,21 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
 //Add Button Listeners using ES6
 nextButt.addEventListener('click',()=>{
-    if (counter => carouselImages.length - 1) return;
+    if (counter >= carouselImages.length - 1) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
     //Add 1 to the counter
     counter++;
     //To test the function: console.log(counter);
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-    
 });
 
 prevButt.addEventListener('click',()=>{
     if (counter <= 0) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
-    //Add 1 to the counter
+    //Minus 1 to the counter
     counter--;
     //To test the function: console.log(counter);
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-
 });
 
 //How do we loop from the end to the begin
