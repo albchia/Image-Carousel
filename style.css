@@ -1,7 +1,11 @@
 *{
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     box-sizing: border-box;
+}
+
+.image-carousel-box {
+    margin-top: 10%;
 }
 
 .carousel-container {
@@ -22,9 +26,20 @@
     position: absolute;
     top: 50%;
     z-index: 10;
-    left: 5%;
+    left: 3%;
     font-size: 50px;
-    color: white;
+    color: white;    
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextButt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 3%;
+    font-size: 50px;
+    color: white;    
     opacity: 0.5;
     cursor: pointer;
 }
