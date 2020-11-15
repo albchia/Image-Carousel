@@ -25,9 +25,9 @@ Here a screenshot of my _Image Carousel_
 
 Title: _"Image Carousel"_
 
-> GitHub: [link](https://github.com/albchia/Image-Slider.git)
+> GitHub: [link](https://github.com/albchia/Image-Carousel.git)
 
-This project has been inspired by [@Clever Techie](https://www.youtube.com/channel/UC1WxZFhq56xs1oxXH-XveSQ). I decided to pick his tutorial as training and inspiration to create my own image slider working with the basic elements of `HMTL` and `CSS`.
+This project has been inspired by [@Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q). I decided to pick his tutorial as training and inspiration to create my own image slider working with the basic elements of `HMTL`, `CSS` boostering also some `JS` concepts.
 
 ## Contributing
 
